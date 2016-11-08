@@ -1,0 +1,25 @@
+before_script:
+    - echo 'hello before_script!'
+    - echo 'add echo'
+stages:
+    - build
+    - test
+    - deploy
+say-hello:
+    stage: build
+    script:
+        - echo 'hello build OSX master'
+        - python match_gs_check.py
+    only:
+        - master
+    tags:
+        - docker-build
+
+pytest:
+    stage: test
+    script:
+        - py.test  test_match_file.py 
+    only:
+        - master
+    tags:
+        - docker-build

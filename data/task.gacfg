@@ -1,0 +1,4 @@
+{
+    "genotype_num":"data/mdp_numeric.txt",
+    "phenotype_trait": "data/mdp_traits.txt"
+}

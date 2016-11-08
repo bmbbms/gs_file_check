@@ -1,0 +1,1 @@
+{"error_list": [{"msg": "文件第5行缺少标题", "info": "文件第一列必须为标题", "title": "data/form_mdp_numeric.txt"}, {"msg": "文件第3行数据缺失或冗余", "info": "文件每行数据的列数应该相同", "title": "data/form_mdp_numeric.txt"}, {"msg": "文件第5行数据缺失或冗余", "info": "文件每行数据的列数应该相同", "title": "data/form_mdp_numeric.txt"}, {"msg": "文件第4行数据错误", "info": "文件数据必须为0，1,2", "title": "data/form_mdp_numeric.txt"}], "result": false}
